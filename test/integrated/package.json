@@ -1,0 +1,18 @@
+{
+  "name": "todo-ias-integrated-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sam local start-api  -t ../../infrastructure/cdk.out/CdkTaStack.template.json",
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

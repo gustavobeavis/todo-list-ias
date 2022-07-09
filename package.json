@@ -2,7 +2,8 @@
   "name": "todo-ias-ts",
   "version": "0.1.0",
   "bin": {
-    "ias": "./dist/infrastructure/bin.js"
+    "ias": "./dist/infrastructure/bin.js",
+    "start:local": "sam local start-api  -t ./infrastructure/cdk.out/CdkTaStack.template.json"
   },
   "scripts": {
     "lint:commit:format": "npx commitlint --from HEAD~1 --to HEAD --verbose",

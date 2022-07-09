@@ -22,6 +22,7 @@ module.exports = {
     '*.py',
     '**/cdk.out/**',
     '.eslintrc.js',
+    '**/cypress/**/*.js',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
